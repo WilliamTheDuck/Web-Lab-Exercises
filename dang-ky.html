@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Lab - Đăng Ký</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <div><img src="./images/logo.png" alt="Logo Freeze"></div>
+        <div>
+            <nav>
+                <a href="index.html">Trang Chủ</a>
+                <a href="gioi-thieu.html">Giới Thiệu</a>
+                <a href="san-pham.html">Sản Phẩm</a>
+                <a href="tin-tuc.html">Tin Tức</a>
+                <a href="dang-nhap.html">Đăng Nhập</a>
+                <a href="dang-ky.html">Đăng Ký</a>
+                <a href="lien-he.html">Liên Hệ</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <fieldset>
+            <legend><b>ĐĂNG KÝ</b></legend>
+
+            <table>
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input style="margin-left:20px;" type="email" name="txtemail" value="" maxlength="50" placeholder="Vui lòng nhập email" size="30"></td>
+                </tr>
+                <tr>
+                    <td><b>Mật Khẩu</b></td>
+                    <td><input style="margin-left:20px;" type="password" name="matkhau" value="" maxlength="50" placeholder="Vui lòng nhập mật khẩu" size="30"></td>
+                </tr>
+                <tr>
+                    <td><b>Nhập Lại Mật Khẩu</b></td>
+                    <td><input style="margin-left:20px;" type="password" name="nhaplaimatkhau" value="" maxlength="50" placeholder="Vui lòng nhập mật khẩu" size="30"></td>
+                </tr>
+                <tr>
+                    <td><b>Cấp độ thành viên</b></td>
+                    <td>
+                        <input type="radio" name="txtcapdothanhvien" value="0"><b>Bạc</b>
+                        <input type="radio" name="txtcapdothanhvien" value="1"><b>Vàng</b>
+                        <input type="radio" name="txtcapdothanhvien" value="2"><b>Bạch Kim</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Ảnh đại diện</b></td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+            <span><b>Thông qua việc tạo tài khoản, bạn đồng ý với </b>
+            <a href="DieuKhoan.html">Điều khoản & Quyền riêng tư của chúng tôi.</a></span>
+            <br>
+            <input type="reset" value="Hủy">
+            <input type="submit" name="DangNhap" value="Đăng ký"/>
+        </fieldset>
+    </main>
+    <footer>
+        <p>© 2021 Bản quyền thuộc về FreeezeVN. 
+            <a href="">facebook</a> 
+            <a href="">twitter</a>
+            <a href="">pinterest</a> 
+            <a href="">Về Đầu Trang</a></p>
+    </footer>
+</body>
+</html>

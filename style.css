@@ -1,0 +1,15 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+  /* Hiệu ứng Glassmorphism */
+  background: rgba(255, 255, 255, 0.15); /* Màu nền trắng trong suốt */
+  backdrop-filter: blur(10px);           /* Làm mờ nội dung phía sau */
+  -webkit-backdrop-filter: blur(10px);   /* Hỗ trợ trình duyệt Safari */
+  
+  /* Đường viền và đổ bóng để tạo hiệu ứng nổi khối nổi bật */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
