@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Lab - Liên Hệ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./main.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="decor">
+            <a href="trangchu.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <img class="img1" src="images/header-img1.png" alt="">
+            <img class="img2" src="images/header-img2.png" alt="">
+            <img class="img3" src="images/header-img3.png" alt="">
+        </div>
+        <div class="tabs">
+            <nav class="nav">
+                <a class="nav--btn" href="trangchu.html">Trang Chủ</a>
+                <a class="nav--btn" href="gioithieu.html">Giới Thiệu</a>
+                <a class="nav--btn" href="sanpham.html">Sản Phẩm</a>
+                <a class="nav--btn" href="tintuc.html">Tin Tức</a>
+                <a class="nav--btn" href="dangnhap.html">Đăng Nhập</a>
+                <a class="nav--btn" href="dangky.html">Đăng Ký</a>
+                <a class="nav--btn" href="lienhe.html">Liên Hệ</a>
+            </nav>
+            <div class="search">
+                <input type="text" class="search--input" value="Nhập nội dung cần tìm">
+                <button class="find--btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button class="cart--btn">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Liên hệ</h2>
+        <img src="images/lienhe/check-in.png">
+        <h2>Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</h2>
+        <p>Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới.</p>
+        <p>Xin cảm ơn.</p>
+        <fieldset>
+            <legend>Góp ý</legend>
+            <table>
+                <tr>
+                    <td>Họ Tên:</td>
+                    <td><input type="hoten" name="txthoten" value="" maxlength="50" placeholder="Vui lòng nhập Họ tên của bạn" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="txtemail" value="" maxlength="50" placeholder="Vui lòng nhập Email" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Chủ đề:</td>
+                    <td>
+                        <select>
+                            <option value="sanpham">Về Sản Phẩm/ Dịch Vụ</option>
+                            <option value="thanhvien">Về Ưu Đãi Thành Viên</option>
+                            <option value="tuyendung">Về Tin Tuyển Dụng</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+                <div style="width:fit-content;">
+                    <p>Nội dung:</p>
+                    <textarea name="text" cols="50" rows="8" placeholder="Nội dung cần liên hệ"></textarea>
+                    <br>
+                    <div style="text-align:center;">
+                        <input type="submit" value="Gửi">
+                    </div>
+                </div>
+        </fieldset>
+    </main>
+    <footer class="footer">
+        <p>© 2021 Bản quyền thuộc về FreeezeVN. 
+            <i class="contact fa-brands fa-facebook-f"></i> 
+            <i class="contact fa-brands fa-twitter"></i>
+            <i class="contact fa-brands fa-pinterest"></i> 
+            <a class="ve-dau-trang" href=""></a>
+        </p>
+    </footer>
+</body>
+</html>
